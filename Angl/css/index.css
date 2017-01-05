@@ -1,0 +1,194 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+@media screen and (max-width: 320px) {
+  body {
+    font-size: 14px; } }
+@media screen and (min-width: 321px) and (max-width: 400px) {
+  body {
+    font-size: 16px; } }
+@media screen and (min-width: 401px) {
+  body {
+    font-size: 18px; } }
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+html {
+  font-size: 62.5%; }
+
+.box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative; }
+  .box header {
+    width: 100%;
+    height: 44px;
+    display: flex;
+    background: #ed5858; }
+    .box header span {
+      width: 44px;
+      height: 44px;
+      text-align: center;
+      line-height: 44px;
+      color: #fff;
+      font-size: 18px; }
+    .box header h3 {
+      flex: 1;
+      line-height: 44px;
+      color: #fff;
+      text-align: center; }
+  .box footer {
+    width: 100%;
+    height: 49px;
+    background: #f7f7f7; }
+    .box footer ul {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      border-top: 1px solid #dddddd; }
+      .box footer ul li {
+        list-style: none;
+        height: 49px;
+        flex: 1; }
+        .box footer ul li b {
+          display: block;
+          width: 100%;
+          height: 26px;
+          padding-top: 4px;
+          text-align: center; }
+          .box footer ul li b img {
+            width: 22px;
+            height: 22px; }
+        .box footer ul li span {
+          color: #666666;
+          display: block;
+          width: 100%;
+          height: 23px;
+          line-height: 23px;
+          text-align: center; }
+
+.xuan {
+  width: 100%;
+  height: 39px; }
+  .xuan ul {
+    border-bottom: 1px solid #ddd;
+    display: flex; }
+    .xuan ul li {
+      display: inline-block;
+      width: 50%;
+      flex: 1;
+      height: 39px;
+      line-height: 39px;
+      text-align: center;
+      border-left: 1px solid #ddd;
+      color: #666; }
+
+.section {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; }
+
+.uls {
+  flex: 1;
+  width: 100%;
+  overflow: hidden; }
+  .uls ul {
+    width: 100%; }
+    .uls ul li {
+      height: 102px;
+      border-bottom: 1px solid #c5c5c5;
+      padding: 18px 10px 0 15px;
+      box-sizing: border-box; }
+      .uls ul li > p {
+        color: #aaa;
+        color: 14px; }
+        .uls ul li > p span {
+          color: #000; }
+      .uls ul li .detail {
+        display: flex;
+        justify-content: space-around; }
+        .uls ul li .detail p {
+          flex: 1;
+          color: #aaa; }
+          .uls ul li .detail p span {
+            display: block;
+            margin: 10px 0 6px 0; }
+          .uls ul li .detail p:nth-child(1) {
+            position: relative;
+            margin-right: 10px; }
+            .uls ul li .detail p:nth-child(1) b {
+              font-size: 36px;
+              color: #ff8800;
+              line-height: 70px; }
+            .uls ul li .detail p:nth-child(1) em {
+              font-size: 16px;
+              color: #ff8800;
+              font-style: normal; }
+            .uls ul li .detail p:nth-child(1) span {
+              position: absolute;
+              left: 3.6rem;
+              top: 0; }
+          .uls ul li .detail p:nth-child(2) span {
+            display: block;
+            margin: 10px 0 2px 0; }
+          .uls ul li .detail p:nth-child(2) b {
+            color: #000;
+            font-weight: bold;
+            font-size: 18px;
+            margin-right: 4px; }
+          .uls ul li .detail p:nth-child(3) b {
+            color: #f00; }
+          .uls ul li .detail p:nth-child(3) span {
+            margin-top: -20px;
+            text-align: center; }
+          .uls ul li .detail p:nth-child(3) img {
+            width: 45px;
+            height: 45px; }
+
+.mark {
+  z-index: 99;
+  position: absolute;
+  left: 0;
+  top: 44px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(3, 3, 3, 0.5); }
+  .mark ol {
+    background: #fff;
+    width: 100%; }
+    .mark ol li {
+      width: 90%;
+      height: 50px;
+      margin-left: 5%;
+      background: #fff;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      font-weight: 900;
+      line-height: 50px; }
+      .mark ol li input {
+        display: none; }
+      .mark ol li input + label {
+        margin-top: 13px;
+        margin-left: 30px;
+        width: 24px;
+        height: 24px;
+        display: inline-block;
+        background-image: url("../images/5_06.jpg");
+        background-size: 100% 100%; }
+      .mark ol li input:checked + label {
+        background-image: url("../images/5_03.jpg");
+        background-size: 100% 100%; }
+
+.on {
+  border-bottom: 1px solid red; }
+
+/*# sourceMappingURL=index.css.map */
